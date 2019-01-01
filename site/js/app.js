@@ -721,7 +721,7 @@ document.addEventListener('DOMContentLoaded', function() {
         child.addEventListener('click', switch_tab, false);
     });
 
-    load_data_source('http://area.jochentopf.com/osmm/layers.json');
+    load_data_source('https://www.mitfahren-bw.de/osmoscope/layers/layers.json');
 
     document.getElementById('add_source').addEventListener('change', function(event) {
         load_data_source(this.value);
